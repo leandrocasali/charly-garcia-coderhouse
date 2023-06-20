@@ -1,0 +1,291 @@
+/*Paleta Color*/
+/* #F6F1F1
+#AFD3E2
+#19A7CE
+#146C94 
+
+font-family: 'Poppins', sans-serif;*/
+
+*{margin:0;
+padding:0;}
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+html{
+    font-size: 62.5%;  /*1rem = 10px*/
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 h2 h3 h4 h5 h6 {font-family: Poppins;}
+
+body{
+    font-size:1.3em;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {width: 100%;}
+
+
+/* Elementos Header */
+header{
+    background-color: #000000;
+    position:sticky;
+    top:0px;
+}
+
+.logo {
+    width:20%;
+}
+
+.menu{
+    color:white;
+}
+
+.menu:hover {
+    color:rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
+.menu:active {
+    color:rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
+
+@media (min-width: 992px) {
+
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: flex-end;
+    }
+    }
+
+
+@media (max-width: 480px) {
+    .logo {
+            width:50%;
+        }
+
+    }
+
+.navbar-toggler {
+    background-color:#ce0000;
+}
+
+
+
+/* Estilos Slider */
+
+.slider-title {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.slider { 
+    background-image: url(../img/bg_slide_home.jpg);
+}
+
+.d-md-block {
+    display: block!important;
+    top: 50%;
+}
+
+@media (max-width: 480px) {
+    .slider-title {
+        font-size: 1.5em;
+        font-weight: 700;
+        line-height:1em;
+    }
+
+    .d-md-block {
+        display: block!important;
+        top: 35%;
+    }
+    }
+
+
+
+
+
+/* Estilos presentación */
+
+.presentacion {
+    background-color:#ce0000;
+    color: black;
+    padding:20px;
+    text-align:center;
+}
+
+.presentacion h1  {font-weight:300; font-size:1.5em;}
+
+.items {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:top;
+    padding:20px;
+}
+
+/* Estilos Recomendado */
+
+.recomendado {
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.recomendado h2 {
+    color:#ce0000;
+    font-weight:800;
+    font-size:2em;
+}
+
+.recomendado h3 {
+    font-weight:800;
+    font-size:3em;
+    margin:20px 0px;
+}
+
+.recomendado p {
+    margin-top:15px;
+}
+
+@media (max-width: 480px) {
+    .recomendado h2 {
+        color:#ce0000;
+        font-weight:800;
+        font-size:1.5em;
+    }
+    
+    .recomendado h3 {
+        font-weight:800;
+        font-size:2.5em;
+    }
+    }
+
+
+/* Slider noticias Home */
+
+.slider-noticias {
+    background-color:black;
+    padding:20px;
+    display: flexbox;
+    align-items: row;
+}
+
+.slider-noticias h2 {
+    color:white;
+    font-size:4em;
+}
+
+.slider-noticias h3 {
+    color:#ce0000;
+    padding:10px 0px;
+    font-weight:800;
+}
+
+.slider-noticias p {
+    color: white;
+}
+
+.slider-noticias button {
+    color: white;
+    background-color: #ce0000;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 0px;
+    margin-bottom:15px;
+}
+
+
+
+/* Foto Home */
+
+.foto-home { background-image: url(../img/completa_02.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+/* PAGINA NOTICIAS*/
+
+.noticias {
+    padding:20px;
+    display: flexbox;
+    align-items: row;
+}
+
+.noticias h2 {
+    color:rgb(0, 0, 0);
+    font-size:4em;
+}
+
+.noticias h3 {
+    color:#ce0000;
+    padding:10px 0px;
+    font-weight:800;
+}
+
+.noticias p {
+    color: rgb(0, 0, 0);
+}
+
+.noticias button {
+    color: white;
+    background-color: #ce0000;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 0px;
+    margin-bottom:15px;
+}
+
+.destacada {margin:20px 0px;}
+
+.destacada h3 {
+    color:#ce0000;
+    padding:10px 0px;
+    font-size:3em;
+    font-weight:800;
+}
+
+
+
+/* Footer */
+
+footer{
+    background-color: black;
+    color: white;
+    padding:40px 50px;
+    margin:0 auto;
+}
+
+footer p{
+    font-size: 2rem;
+    text-align: center;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    
+}
+
+footer li {
+    padding: 0px 5px 0px 0px;
+}
+
+footer ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+  
+}
+
+.logo-footer {
+    width:250px;
+    margin:auto;
+}
