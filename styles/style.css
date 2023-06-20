@@ -81,10 +81,6 @@ header{
     font-weight: 700;
 }
 
-.slider { 
-    background-image: url(../img/bg_slide_home.jpg);
-}
-
 .d-md-block {
     display: block!important;
     top: 50%;
@@ -251,6 +247,46 @@ header{
 }
 
 
+/* PAGINA BIO*/
+
+.bio01 {
+    background-image: url(../img/charly-bio01.jpg);
+    background-size: cover;
+    min-height:400px;
+}
+
+.bio01-b {
+    background-color: #CE0000;
+    padding:40px 20px;
+    color: white;
+    font-size:1.2em;
+    display: flex;
+    align-items: center;
+}
+
+.bio02 {
+    background-image: url(../img/charly-bio02.jpg);
+    background-size: cover;
+    padding:100px 0px;
+    min-height:400px;
+}
+
+
+.bio03 {
+    background-image: url(../img/charly-bio03.jpg);
+    background-size: cover;
+    padding:100px 0px;
+    min-height:400px;
+}
+
+.bio03-b {
+    background-color: white;
+    padding:40px 20px;
+    color: rgb(6, 6, 6);
+    font-size:1.2em;
+    display: flex;
+    align-items: center;
+}
 
 /* Footer */
 
