@@ -209,7 +209,7 @@ font-family: 'Poppins', sans-serif;*/
     .bg-noticias {
         background-image: url(../img/bg-noticias.jpg);
         background-size: cover;
-        min-height:400px;
+        min-height:550px;
         background-position:top center;
         display: flex;
         align-items: center;
@@ -220,7 +220,7 @@ font-family: 'Poppins', sans-serif;*/
         color:white;
         font-weight:600;
         font-size:4em;
-        margin-top: 250px;
+        margin-top: 350px;
     }
     
     .noticias {
@@ -270,7 +270,7 @@ font-family: 'Poppins', sans-serif;*/
     .bg-bio {
         background-image: url(../img/bg-bio.jpg);
         background-size: cover;
-        min-height:400px;
+        min-height:550px;
         background-position:top center;
         display: flex;
         align-items: center;
@@ -281,7 +281,7 @@ font-family: 'Poppins', sans-serif;*/
         color:white;
         font-weight:600;
         font-size:4em;
-        margin-top: 250px;
+        margin-top: 350px;
     }
     
     
@@ -400,7 +400,7 @@ font-family: 'Poppins', sans-serif;*/
     .bg-discografia {
         background-image: url(../img/bg-discografia.jpg);
         background-size: cover;
-        min-height:400px;
+        min-height:550px;
         background-position:top center;
         display: flex;
         align-items: center;
@@ -411,7 +411,7 @@ font-family: 'Poppins', sans-serif;*/
         color:white;
         font-weight:600;
         font-size:4em;
-        margin-top: 250px;
+        margin-top: 350px;
     }
     
     .discografia button {
@@ -439,7 +439,7 @@ font-family: 'Poppins', sans-serif;*/
     .bg-foto-video {
         background-image: url(../img/bg-foto-video.jpg);
         background-size: cover;
-        min-height:400px;
+        min-height:550px;
         background-position:top center;
         display: flex;
         align-items: center;
@@ -450,7 +450,8 @@ font-family: 'Poppins', sans-serif;*/
         color:white;
         font-weight:600;
         font-size:4em;
-        margin-top: 250px;
+        margin-top:350px;
+        text-align:center;
     }
     
     
