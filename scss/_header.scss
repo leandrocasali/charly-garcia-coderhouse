@@ -1,19 +1,25 @@
 /* Elementos Header */
 
+header{
+    background-color: #000000;
+    position:sticky;
+    top:0px;
+}
+
 .logo {
     width:20%;
     }
 
 
-    .menu {
-        color:$blanco;
-        &:hover {
-            color: $rojo;
-            text-decoration: underline;
+.menu {
+    color:$blanco;
+    &:hover {
+        color: $rojo;
+        text-decoration: underline;
         }
-        &:active {
-            color: $rojo;
-            text-decoration: underline;
+    &:active {
+        color: $rojo;
+        text-decoration: underline;
         }
     }
 

@@ -24,6 +24,12 @@ img {
 }
 
 /* Elementos Header */
+header {
+  background-color: #000000;
+  position: sticky;
+  top: 0px;
+}
+
 .logo {
   width: 20%;
 }
