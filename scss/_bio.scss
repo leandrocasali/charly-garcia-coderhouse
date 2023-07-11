@@ -90,18 +90,18 @@
         a {
             text-decoration:none;
         }
+        button {
+            background-color: $negro;
+            padding:20px;
+            color: $blanco;
+            font-size:1.2em;
+            display: flex;
+            align-items: center;
+            border-radius:50px;
+            margin:40px 0px;
+        }
     }
     
-.bio06-b button {
-        background-color: $negro;
-        padding:20px;
-        color: $blanco;
-        font-size:1.2em;
-        display: flex;
-        align-items: center;
-        border-radius:50px;
-        margin:40px 0px;
-    }
     
 .bio07 {
         background-image: url(../img/charly-bio03.jpg);
