@@ -30,7 +30,9 @@
         font-size:1.2em;
         display: flex;
         align-items: center;
-    } .bio02 {
+    } 
+    
+.bio02 {
         background-image: url(../img/charly-bio02.jpg);
         background-size: cover;
         padding:100px 0px;
@@ -39,7 +41,7 @@
     }
     
     
-    .bio03 {
+.bio03 {
         background-image: url(../img/charly-bio03.jpg);
         background-size: cover;
         padding:100px 0px;
@@ -47,7 +49,7 @@
         background-position:center center;
     }
     
-    .bio03-b {
+.bio03-b {
         background-color: $blanco;
         padding:40px 20px;
         color: rgb(6, 6, 6);
@@ -56,7 +58,7 @@
         align-items: center;
     }
     
-    .bio04 {
+.bio04 {
         background-image: url(../img/charly-bio05.jpg);
         background-size: cover;
         padding:100px 0px;
@@ -64,7 +66,7 @@
         background-position:center center;
     }
     
-    .bio05 {
+.bio05 {
         background-image: url(../img/charly-bio06.jpg);
         background-size: cover;
         padding:100px 0px;
@@ -72,7 +74,7 @@
         background-position:center center;
     }
     
-    .bio06 {
+.bio06 {
         background-image: url(../img/charly-bio11.jpg);
         background-size: cover;
         padding:100px 0px;
@@ -80,7 +82,7 @@
         background-position:top center;
     }
     
-    .bio06-b {
+.bio06-b {
         background-color: $blanco;
         padding:40px 20px;
         color: rgb(6, 6, 6);
