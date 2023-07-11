@@ -1,0 +1,119 @@
+/* PÁGINA HOME*/
+    
+/* Estilos Slider */
+    
+.slider-title {
+    font-size: 3em;
+    font-weight: 700;
+    }
+    
+ .d-md-block {
+    display: block!important;
+    top: 50%;
+    }
+    
+@media (max-width: 480px) {
+    .slider-title {
+        font-size: 1.5em;
+        font-weight: 700;
+        line-height:1em;
+        }
+    
+    .d-md-block {
+        display: block!important;
+        top: 35%;
+        }
+    }
+
+/* Estilos presentación */
+.presentacion {
+    background-color:#ce0000;
+    color: black;
+    padding:20px;
+    text-align:center;
+    h1 {
+        font-weight:300;
+        font-size:1.5em;
+    }    
+}
+
+.items {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:top;
+    padding:20px;
+}
+
+/* Estilos Recomendado */
+    
+.recomendado {
+    margin-top:30px;
+    margin-bottom:30px;
+    h2 {
+        color:#ce0000;
+        font-weight:800;
+        font-size:2em;
+    }
+    h3 {
+        font-weight:800;
+        font-size:3em;
+        margin:20px 0px;
+    }
+    p {
+        margin-top:15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .recomendado {
+        h2 {
+        color:#ce0000;
+        font-weight:800;
+        font-size:1.5em;
+        }
+        h3 {
+        font-weight:800;
+        font-size:2.5em;
+        }
+    }
+    }
+
+ /* Slider noticias Home */
+
+ .slider-noticias {
+    background-color:$negro;
+    padding:20px;
+    display: flexbox;
+    align-items: row;
+    h2 {
+        color:$blanco;
+        font-size:4em;
+    }
+    h3 {
+        color:$rojo;
+        padding:10px 0px;
+        font-weight:800;
+    }
+    p {
+        color: $blanco;
+    }
+    button {
+        color: $blanco;
+        background-color: $rojo;
+        padding: 10px 20px;
+        border-radius: 50px;
+        border: 0px;
+        margin-bottom:15px;
+    }
+}
+
+/* Foto Home */
+    
+.foto-home { 
+    background-image: url(../img/completa_02.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }

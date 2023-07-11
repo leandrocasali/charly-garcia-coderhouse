@@ -1,0 +1,125 @@
+/* PAGINA BIO*/
+    
+.bg-bio {
+    background-image: url(../img/bg-bio.jpg);
+    background-size: cover;
+    min-height:550px;
+    background-position:top center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1 {
+        color:white;
+        font-weight:600;
+        font-size:4em;
+        margin-top: 350px;
+    }
+    }
+
+.bio01 {
+        background-image: url(../img/charly-bio01.jpg);
+        background-size: cover;
+        min-height:400px;
+        background-position:center center;
+    }
+    
+.bio01-b {
+        background-color: $rojo;
+        padding:40px 20px;
+        color: $blanco;
+        font-size:1.2em;
+        display: flex;
+        align-items: center;
+    } .bio02 {
+        background-image: url(../img/charly-bio02.jpg);
+        background-size: cover;
+        padding:100px 0px;
+        min-height:400px;
+        background-position:center center;
+    }
+    
+    
+    .bio03 {
+        background-image: url(../img/charly-bio03.jpg);
+        background-size: cover;
+        padding:100px 0px;
+        min-height:400px;
+        background-position:center center;
+    }
+    
+    .bio03-b {
+        background-color: $blanco;
+        padding:40px 20px;
+        color: rgb(6, 6, 6);
+        font-size:1.2em;
+        display: flex;
+        align-items: center;
+    }
+    
+    .bio04 {
+        background-image: url(../img/charly-bio05.jpg);
+        background-size: cover;
+        padding:100px 0px;
+        min-height:400px;
+        background-position:center center;
+    }
+    
+    .bio05 {
+        background-image: url(../img/charly-bio06.jpg);
+        background-size: cover;
+        padding:100px 0px;
+        min-height:400px;
+        background-position:center center;
+    }
+    
+    .bio06 {
+        background-image: url(../img/charly-bio11.jpg);
+        background-size: cover;
+        padding:100px 0px;
+        min-height:400px;
+        background-position:top center;
+    }
+    
+    .bio06-b {
+        background-color: $blanco;
+        padding:40px 20px;
+        color: rgb(6, 6, 6);
+        font-size:1.2em;
+        display: flex;
+        align-items: center;
+    }
+    
+.bio06-b button {
+        background-color: $negro;
+        padding:20px;
+        color: $blanco;
+        font-size:1.2em;
+        display: flex;
+        align-items: center;
+        border-radius:50px;
+        margin:40px 0px;
+    }
+    
+.bio07 {
+        background-image: url(../img/charly-bio03.jpg);
+        background-size: cover;
+        padding:100px 0px;
+        min-height:400px;
+        background-position:top center;
+    }
+    
+.frase {
+        font-size: 3em;
+        text-align: center;
+        color: $rojo;
+        font-weight: 800;
+        background-color: $negro;
+        padding: 50px 25px;
+        line-height: 1em;
+    }
+    
+.bajada-frase {
+        color:$blanco;
+        font-size: 20px;
+        font-weight:300;
+    }

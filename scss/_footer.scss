@@ -1,0 +1,32 @@
+/* Footer */
+    
+footer{
+    background-color: $negro;
+    color: $blanco;
+    padding:40px 50px;
+    margin:0 auto;
+    p{
+        font-size: 2rem;
+        text-align: center;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        a{
+            color:$blanco;
+            text-decoration: none;
+            font-size: 1.5rem;
+          
+        }
+    }
+    li {
+        padding: 0px 5px 0px 0px;
+    }
+}
+
+.logo-footer {
+    width:250px;
+    margin:auto;
+}

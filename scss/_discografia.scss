@@ -1,0 +1,36 @@
+/* PAGINA DISCOGRAFIA*/
+    
+.bg-discografia {
+    background-image: url(../img/bg-discografia.jpg);
+    background-size: cover;
+    min-height:550px;
+    background-position:top center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1 {
+    color:$blanco;
+    font-weight:600;
+    font-size:4em;
+    margin-top: 350px;
+    }
+    button {
+    color:$blanco;
+    background-color: $rojo;
+    padding: 5px 20px;
+    font-size:10px;
+    border-radius: 50px;
+    border: 0px;
+    margin-bottom:15px;
+    }
+}
+.discografia {
+h2 {
+    font-size:2em;
+    margin:20px 0px;
+}
+h3 {
+    font-size:1em;
+    margin:10px 0px;
+}
+}
