@@ -395,14 +395,17 @@ header {
   font-size: 1em;
   margin: 10px 0px;
 }
-.discografia button {
-  color: #ffffff;
-  background-color: #ce0000;
-  padding: 5px 20px;
-  font-size: 10px;
-  border-radius: 50px;
-  border: 0px;
+.discografia a {
+  color: #ce0000;
+  font-size: 1.2em;
   margin-bottom: 15px;
+  transition: 1s;
+  text-decoration: none;
+}
+.discografia a:hover {
+  color: #000000;
+  text-decoration: underline;
+  letter-spacing: 1px;
 }
 
 /* PAGINA FOTO Y VIDEO*/
