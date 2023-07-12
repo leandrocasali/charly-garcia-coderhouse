@@ -32,10 +32,15 @@ header {
 
 .logo {
   width: 20%;
+  transition: 1s;
+}
+.logo:hover {
+  width: 21%;
 }
 
 .menu {
   color: #ffffff;
+  transition: 2s;
 }
 .menu:hover {
   color: #ce0000;
@@ -49,6 +54,8 @@ header {
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
     justify-content: flex-end;
+    font-size: 1.2em;
+    margin-right: 20px;
   }
 }
 @media (max-width: 480px) {
@@ -135,13 +142,13 @@ header {
 }
 /* Slider noticias Home */
 .slider-noticias {
-  background-color: #000000;
+  background-color: #ffffff;
   padding: 20px;
   display: flexbox;
   align-items: row;
 }
 .slider-noticias h2 {
-  color: #ffffff;
+  color: #000000;
   font-size: 4em;
 }
 .slider-noticias h3 {
@@ -150,7 +157,7 @@ header {
   font-weight: 800;
 }
 .slider-noticias p {
-  color: #ffffff;
+  color: #000000;
 }
 .slider-noticias button {
   color: #ffffff;
@@ -159,6 +166,12 @@ header {
   border-radius: 50px;
   border: 0px;
   margin-bottom: 15px;
+  transition: 1s;
+}
+.slider-noticias button:hover {
+  background-color: #000000;
+  border-radius: 0px;
+  color: #ce0000;
 }
 
 /* Foto Home */
@@ -339,6 +352,12 @@ header {
   border-radius: 50px;
   border: 0px;
   margin-bottom: 15px;
+  transition: 1s;
+}
+.noticias button:hover {
+  background-color: #000000;
+  border-radius: 0px;
+  color: #ce0000;
 }
 
 .destacada {
@@ -403,6 +422,19 @@ header {
   font-size: 4em;
   margin-top: 350px;
   text-align: center;
+}
+
+.discos {
+  margin-bottom: 20px;
+}
+
+.info-disco {
+  margin: 20px 0px;
+}
+
+.disco-title {
+  color: #ce0000;
+  font-weight: 800;
 }
 
 /* Footer */

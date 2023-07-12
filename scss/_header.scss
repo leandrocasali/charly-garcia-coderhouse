@@ -8,11 +8,16 @@ header{
 
 .logo {
     width:20%;
+    transition: 1s;
+    &:hover {
+        width:21%;
+        }
     }
 
 
 .menu {
     color:$blanco;
+    transition: 2s;
     &:hover {
         color: $rojo;
         text-decoration: underline;
@@ -27,6 +32,8 @@ header{
     
         .navbar-expand-lg .navbar-collapse {
             justify-content: flex-end;
+            font-size: 1.2em;
+            margin-right: 20px;
         }
         }
     

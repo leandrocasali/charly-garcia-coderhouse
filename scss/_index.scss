@@ -82,12 +82,12 @@
  /* Slider noticias Home */
 
  .slider-noticias {
-    background-color:$negro;
+    background-color:$blanco;
     padding:20px;
     display: flexbox;
     align-items: row;
     h2 {
-        color:$blanco;
+        color:$negro;
         font-size:4em;
     }
     h3 {
@@ -96,7 +96,7 @@
         font-weight:800;
     }
     p {
-        color: $blanco;
+        color: $negro;
     }
     button {
         color: $blanco;
@@ -105,6 +105,12 @@
         border-radius: 50px;
         border: 0px;
         margin-bottom:15px;
+        transition: 1s;
+        &:hover {
+        background-color: $negro;
+        border-radius: 0px;
+        color:$rojo;
+        }
     }
 }
 
