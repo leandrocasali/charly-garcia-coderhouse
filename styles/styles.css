@@ -79,6 +79,10 @@ header {
   top: 50%;
 }
 
+.slider-mobile {
+  display: none;
+}
+
 @media (max-width: 480px) {
   .slider-title {
     font-size: 1.5em;
@@ -87,7 +91,13 @@ header {
   }
   .d-md-block {
     display: block !important;
-    top: 35%;
+    top: 50%;
+  }
+  .slider {
+    display: none;
+  }
+  .slider-mobile {
+    display: inline;
   }
 }
 /* Estilos presentación */
@@ -171,6 +181,9 @@ header {
 .slider-noticias button:hover {
   background-color: #000000;
   border-radius: 0px;
+}
+.slider-noticias img {
+  border-radius: 15px;
 }
 
 /* Foto Home */
@@ -363,6 +376,9 @@ header {
   background-color: #000000;
   border-radius: 0px;
 }
+.noticias img {
+  border-radius: 15px;
+}
 
 .destacada {
   margin: 20px 0px;
@@ -379,6 +395,12 @@ header {
   padding: 0px 5px;
 }
 
+@media (max-width: 480px) {
+  .noticia-title {
+    min-height: 100px;
+    padding: 0px 5px;
+  }
+}
 /* PAGINA DISCOGRAFIA*/
 .bg-discografia {
   background-image: url(../img/bg-discografia.jpg);

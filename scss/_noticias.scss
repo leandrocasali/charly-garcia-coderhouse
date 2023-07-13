@@ -45,6 +45,9 @@
         border-radius: 0px;
         }
     }
+    img {
+        border-radius:15px;
+    }
 }
 
 .destacada {
@@ -60,4 +63,11 @@
 .noticia-title {
     min-height:180px;
     padding:0px 5px;
+}
+
+@media (max-width: 480px) {
+    .noticia-title {
+        min-height:100px;
+        padding:0px 5px;
+    }
 }

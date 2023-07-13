@@ -11,6 +11,9 @@
     display: block!important;
     top: 50%;
     }
+.slider-mobile {
+    display:none;
+}
     
 @media (max-width: 480px) {
     .slider-title {
@@ -21,8 +24,14 @@
     
     .d-md-block {
         display: block!important;
-        top: 35%;
+        top: 50%;
         }
+    .slider {
+        display:none;
+    }
+    .slider-mobile {
+        display:inline;
+    }
     }
 
 /* Estilos presentación */
@@ -110,6 +119,9 @@
         background-color: $negro;
         border-radius: 0px;
         }
+    }
+    img {
+        border-radius:15px;
     }
 }
 
