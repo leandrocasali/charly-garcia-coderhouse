@@ -33,8 +33,7 @@ a {
     text-decoration:none;
     &:hover {
         color: $negro;
-        text-decoration: underline;
-        letter-spacing: 1px;
+        letter-spacing: 0.2px;
         }
     }
 }

@@ -27,7 +27,7 @@
     h3 {
         color:$rojo;
         padding:10px 0px;
-        font-weight:800;
+        font-weight:700;
     }
     p {
         color:$negro;
@@ -38,12 +38,11 @@
         padding: 10px 20px;
         border-radius: 50px;
         border: 0px;
-        margin-bottom:15px;
+        margin-bottom:25px;
         transition: 1s;
         &:hover {
         background-color: $negro;
         border-radius: 0px;
-        color:$rojo;
         }
     }
 }
@@ -54,6 +53,11 @@
         color:$rojo;
         padding:10px 0px;
         font-size:3em;
-        font-weight:800;
+        font-weight:700;
     }
+}
+
+.noticia-title {
+    min-height:180px;
+    padding:0px 5px;
 }

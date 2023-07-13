@@ -117,11 +117,11 @@ header {
 }
 .recomendado h2 {
   color: #ce0000;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 2em;
 }
 .recomendado h3 {
-  font-weight: 800;
+  font-weight: 700;
   font-size: 3em;
   margin: 20px 0px;
 }
@@ -132,11 +132,11 @@ header {
 @media (max-width: 480px) {
   .recomendado h2 {
     color: #ce0000;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 1.5em;
   }
   .recomendado h3 {
-    font-weight: 800;
+    font-weight: 700;
     font-size: 2.5em;
   }
 }
@@ -154,7 +154,7 @@ header {
 .slider-noticias h3 {
   color: #ce0000;
   padding: 10px 0px;
-  font-weight: 800;
+  font-weight: 700;
 }
 .slider-noticias p {
   color: #000000;
@@ -171,7 +171,6 @@ header {
 .slider-noticias button:hover {
   background-color: #000000;
   border-radius: 0px;
-  color: #ce0000;
 }
 
 /* Foto Home */
@@ -285,6 +284,12 @@ header {
   align-items: center;
   border-radius: 50px;
   margin: 40px 0px;
+  transition: 1s;
+  border: 0px;
+}
+.bio06-b button:hover {
+  background-color: #ce0000;
+  border-radius: 0px;
 }
 
 .bio07 {
@@ -340,7 +345,7 @@ header {
 .noticias h3 {
   color: #ce0000;
   padding: 10px 0px;
-  font-weight: 800;
+  font-weight: 700;
 }
 .noticias p {
   color: #000000;
@@ -351,13 +356,12 @@ header {
   padding: 10px 20px;
   border-radius: 50px;
   border: 0px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   transition: 1s;
 }
 .noticias button:hover {
   background-color: #000000;
   border-radius: 0px;
-  color: #ce0000;
 }
 
 .destacada {
@@ -367,7 +371,12 @@ header {
   color: #ce0000;
   padding: 10px 0px;
   font-size: 3em;
-  font-weight: 800;
+  font-weight: 700;
+}
+
+.noticia-title {
+  min-height: 180px;
+  padding: 0px 5px;
 }
 
 /* PAGINA DISCOGRAFIA*/
@@ -404,8 +413,7 @@ header {
 }
 .discografia a:hover {
   color: #000000;
-  text-decoration: underline;
-  letter-spacing: 1px;
+  letter-spacing: 0.2px;
 }
 
 /* PAGINA FOTO Y VIDEO*/
