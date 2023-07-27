@@ -253,6 +253,9 @@ header {
   display: flex;
   align-items: center;
 }
+.bio03-b img {
+  margin: 20px 0px;
+}
 
 .bio04 {
   background-image: url(../img/charly-bio05.jpg);
@@ -328,6 +331,10 @@ header {
   color: #ffffff;
   font-size: 20px;
   font-weight: 300;
+}
+
+.img-bio {
+  margin: 20px 0px;
 }
 
 /* PAGINA NOTICIAS*/

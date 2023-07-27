@@ -57,6 +57,9 @@
         font-size:1.2em;
         display: flex;
         align-items: center;
+        img {
+            margin:20px 0px;
+        }
     }
     
 .bio04 {
@@ -135,3 +138,7 @@
         font-size: 20px;
         font-weight:300;
     }
+
+.img-bio {
+    margin:20px 0px;
+}
