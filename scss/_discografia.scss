@@ -18,8 +18,10 @@
 }
 .discografia {
 h2 {
-    font-size:2em;
-    margin:20px 0px;
+    font-size: 2em;
+    margin: 20px 0px;
+    padding: 10px;
+    border-bottom: 1px solid grey;
 }
 h3 {
     font-size:1em;
@@ -27,7 +29,7 @@ h3 {
 }
 a {
     color:$rojo;
-    font-size:1.2em;
+    font-size:1em;
     margin-bottom:15px;
     transition: 1s;
     text-decoration:none;
